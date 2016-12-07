@@ -17,7 +17,7 @@ from django.conf import settings
 
 import logging
 from functools import partial
-from cache_toolbox.core import del_cached_content
+# from cache_toolbox.core import del_cached_content
 
 from xmodule.contentstore.django import contentstore
 from xmodule.contentstore.content import StaticContent
